@@ -8,7 +8,7 @@ $app.directive("leaflet", ["$http", "$log", function ($http, $log) {
             tilelayer: "=tilelayer",
             markers: "=markers",
             path: "=path",
-            maxZoom: "@maxzoom",
+            maxZoom: "=maxzoom",
             bounds: "=bounds"
         },
         template: '<div class="angular-leaflet-map"></div>',
