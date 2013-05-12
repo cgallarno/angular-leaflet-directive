@@ -1,6 +1,7 @@
 #Tyto Leaflet
 
 A plugin for the [Tyto Framework](http://tyto.io) to easily include leaflet.js maps in your app.
+####This plugin is included with Tyto by default
 
 ##Installation
 clone the repository into your plugins directory in `app/plugins/` or download the zip file, unpack it and place into the plugins folder.
