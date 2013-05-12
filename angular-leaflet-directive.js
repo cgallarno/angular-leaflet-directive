@@ -1,6 +1,4 @@
-var leafletDirective = angular.module("leaflet-directive", []);
-
-leafletDirective.directive("leaflet", ["$http", "$log", function ($http, $log) {
+$app.directive("leaflet", ["$http", "$log", function ($http, $log) {
     return {
         restrict: "E",
         replace: true,
