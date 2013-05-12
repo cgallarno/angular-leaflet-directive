@@ -1,5 +1,5 @@
 var config =
 {
-	extName : 'leaflet',
+	extName : 'tyto-leaflet',
 	files : ['leaflet.css', 'leaflet.js', 'angular-leaflet-directive.js']
 }
